@@ -1,0 +1,153 @@
+body{
+    background-color: #e5e5e596;
+    max-width: 1024px;
+    margin: auto;
+}
+
+:root{
+    --dark-blue:#076981d5;
+    --light-background-color: #f5f5f5;
+    --dark-background-color:#d4d4d4;
+}
+
+#the_form{
+    display: flex;
+    margin: 70px 0px 70px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px var(--dark-background-color);
+}
+
+.the_form_image{
+    display: block;
+    position: sticky;
+    box-sizing: border-box; 
+    
+}
+
+.the_form_information{
+    max-width: 600px;
+    background-color: var(--light-background-color);
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 50px;
+    color:var(--dark-blue) ;
+    padding: 30px 0px 20px 0px;
+}
+
+.title_label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #404040;
+}
+
+.title_input{
+    border: 1px solid var(--dark-background-color);
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.title_input:focus{
+    outline: none;
+    border: 2px solid  var(--dark-blue);  
+}
+
+.delivery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#country{
+    border: 1px solid var(--dark-background-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 160px;
+}
+
+#country:focus{
+    outline: none;
+    border: 2px solid  var(--dark-blue); 
+}
+
+p{
+    font-weight: 500;
+    color: #737373;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.checkbox{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+
+.checkbox_item{
+    padding: 10px 0px 10px 0px;
+}
+
+.input_checkbox{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d4d4d4;
+    margin: 10px 10px 0px 0px;
+}
+
+.input_checkbox:checked{
+    background-image: url("icon.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.button_large{
+    display: flex;
+    justify-content: center;
+    background-color:  var(--light-background-color);
+    padding: 20px 40px 40px 40px;
+}
+
+button{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color:#0e98ceb4;
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: var(--dark-blue);
+}
